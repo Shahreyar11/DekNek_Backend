@@ -12,7 +12,7 @@ connectToDB(process.env.MONGO_URI)
   .then(()=>console.log('MongoDb Connected'));
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: ['http://localhost:5173','https://dek-nek-backend.vercel.app/']
   credentials: true
 }));
 
