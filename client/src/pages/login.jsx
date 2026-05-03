@@ -17,7 +17,7 @@ const Login = () => {
 
     console.log("Sending this data to backend: ", userData);
 
-    const response = await fetch("https://dek-nek-backend-2yrp.vercel.app/", {
+    const response = await fetch("https://deknek-backend-fmee.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
