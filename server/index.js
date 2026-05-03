@@ -14,7 +14,7 @@ connectToDB(process.env.MONGO_URI)
 app.use(cors({
   origin: ["http://localhost:5173" ,
            "https://dek-nek-backend.vercel.app"
-          ]
+          ],
   credentials: true
 }));
 
